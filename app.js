@@ -7,14 +7,16 @@ const navSlide = () => {
     nav.classList.toggle("nav-active");
 
     navLinks.forEach((link, index) => {
-        if(link.style.animation){
-            link.style.animation = '';
-        } else {
-            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
-        }
+      if (link.style.animation) {
+        link.style.animation = "";
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${
+          index / 7 + 0.5
+        }s`;
+      }
     });
 
-    burger.classList.toggle('burger-active');
+    burger.classList.toggle("burger-active");
   });
 };
 
