@@ -1,5 +1,5 @@
 # Responsive Navigation
 
-Demo: https://elmer.dev/projects/responsive-navbar/
+Demo: https://projects.elmer.dev/responsive-navbar
 
 Resize your browser or use the Chrome DevTools to simulate mobile view.
